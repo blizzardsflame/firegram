@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 :root {
-  --primary: #efb6b2;
+  --primary: #e45b51;
   --secondary: #4e4e4e;
-  --error: #ff4a4a;
+  --error: #e61b1b;
 }
 
 /* base styles & title */
@@ -14,6 +14,17 @@ body {
 .App {
   max-width: 960px;
   margin: 0 auto;
+}
+.dark-app {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: black !important;
+  color: white;
+}
+.underline-title {
+  height: 0.3rem;
+  background: #e45b51;
+  position: relative;
 }
 .title h1 {
   color: var(--primary);
