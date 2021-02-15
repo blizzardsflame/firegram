@@ -5,12 +5,12 @@ import "firebase/firestore";
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyAGRqfHHKsHnta5Ka8JqXOcT3Fpnly_YAQ",
-  authDomain: "react-instafire.firebaseapp.com",
-  projectId: "react-instafire",
-  storageBucket: "react-instafire.appspot.com",
-  messagingSenderId: "350457262472",
-  appId: "1:350457262472:web:691c0ddf149db036da0a3d",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
